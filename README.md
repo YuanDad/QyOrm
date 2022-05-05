@@ -124,11 +124,6 @@ public:
 1.  将QyOrm子目录下载下来
 2.  在自己的pro里添加include($$PWD/QyOrm/QyOrm.pri)
 
-
-#### 演示
-[Test_QyOrm_Main.cpp的运行演示](http://www.install.love/img/gif/QyOrm.gif)
-(Gitee最大上传GIF大小为2MB)
-
 #### 参与贡献
 
 1.  俺...
