@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TestMainWindow</class>
+ <widget class="QWidget" name="TestMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>722</width>
+    <height>445</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>测试</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <property name="selectionMode">
+      <enum>QAbstractItemView::SingleSelection</enum>
+     </property>
+     <property name="selectionBehavior">
+      <enum>QAbstractItemView::SelectRows</enum>
+     </property>
+     <column>
+      <property name="text">
+       <string>账号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>密码</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>姓名</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>年龄</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>DMI指数</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>出生日期</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>性别</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QPushButton" name="btnAdd">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="text">
+        <string>新增</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnMod">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="text">
+        <string>修改</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnDel">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="text">
+        <string>删除</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QWidget" name="" native="true">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>字段:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <item>
+           <property name="text">
+            <string>账号</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>密码</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>姓名</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit">
+          <property name="focusPolicy">
+           <enum>Qt::StrongFocus</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnQuery">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string>查询</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
